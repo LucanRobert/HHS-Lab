@@ -1,5 +1,5 @@
 /* ==========================================
-   HHS's Lab - Version 0.1 Beta
+   HHS's Lab - Version 0.2 Beta
    ========================================== */
 
 * {
@@ -141,4 +141,21 @@ footer {
     border-radius: 10px;
 
     border-left: 6px solid #2e7d32;
+}
+
+/* ---------- For CV Section ---------- */
+
+#cv a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#cv a:hover {
+    text-decoration: underline;
+}
+
+.cv-disclaimer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
 }
