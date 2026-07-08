@@ -73,11 +73,25 @@
 
                 <li><a href="mailto:lucanrobert3@gmail.com">Email</a></li>
 
-                <li><a href="https://www.facebook.com/share/18jZbbgFhs/">Facebook</a></li>
+                <li><a href="https://www.facebook.com/share/18jZbbgFhs/" target="_blank">Facebook</a></li>
 
-                <li><a href="https://www.t.me/Bhouse08">Telegram</a></li>
+                <li>
+                    <a href="#" onclick="openViber(); return false;">Viber</a>
+                </li>
 
-                <li><a href="#">Linkedin (Temporarily Deactivated)</a></li>
+                <script>
+                function openViber() {
+                    window.location.href = "viber://chat?number=%2B9987422310";
+
+                    setTimeout(function () {
+                        alert("Couldn't open Viber? Contact me at\n+95 9 987422310");
+                    }, 1200);
+                }
+                </script>
+
+                <li><a href="https://t.me/Bhouse08" target="_blank">Telegram</a></li>
+
+                <li><a href="https://www.linkedin.com/in/heinhtetsoe-lucan/" target="_blank">Linkedin</a></li>
 
             </ul>
 
